@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="?android:windowBackground">
+
+    <!-- Theme Toggle -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="8dp"
+        android:text="Dark Mode"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+
+    <!-- Scan Interval -->
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switch_theme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enable Dark Theme"
+        tools:ignore="HardcodedText"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Scan Interval (seconds)"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText"/>
+
+    <SeekBar
+        android:id="@+id/seekbar_interval"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="60" />
+
+    <TextView
+        android:id="@+id/interval_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5 sec"
+        android:textStyle="bold"
+        android:layout_marginTop="4dp"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
