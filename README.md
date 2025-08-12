@@ -61,11 +61,12 @@ Built for educational and exploratory use with only free tools and APIs.
 
 3. Add API keys to local.properties:
 
-Sync Gradle and build the project
+4. Sync Gradle and build the project
 
-Run on a BLE + Wi-Fi capable Android device
+5. Run on a BLE + Wi-Fi capable Android device
 
-Usage
+### Usage
+
 Launch the app and allow required permissions (location, Bluetooth, Wi-Fi).
 
 Tap Start Scan to detect nearby devices and towers.
@@ -76,13 +77,12 @@ Export results via the navigation drawer menu for offline use.
 
 Access your scan history via the History menu for paginated past scans.
 
-Saving Scan History
+### Saving Scan History
+
 Every scan session is saved to a Room database, and displayed through a RecyclerView using Paging 3. This ensures efficient scrolling and performance even with large history data.
 
-Screenshots
-(Include .png images: map view, filters, export UI, history list)
+### Contributing
 
-Contributing
 Contributions and enhancements are welcome!
 Feel free to:
 
@@ -92,7 +92,8 @@ Fork this repo and submit pull requests
 
 Please reference the Contributor Covenant for best practices.
 
-License
+### License
+
 This project is licensed under the MIT License — see the LICENSE file for details.
 
 
