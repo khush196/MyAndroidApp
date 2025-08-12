@@ -55,7 +55,7 @@ Built for educational and exploratory use with only free tools and APIs.
 
 1. Clone the repo:
    ```bash
-   git clone <https://github.com/khush196/MyAndroidApp>
+   git clone <https://github.com/khush196/MyAndroidApp.git>
 
 2. Open project in Android Studio
 
