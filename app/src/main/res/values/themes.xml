@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.DeviceMapper" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary" tools:ignore="NewApi">@android:color/system_accent1_900</item>
+        <item name="colorPrimaryVariant" tools:ignore="NewApi">@android:color/system_accent1_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary" tools:ignore="NewApi">@android:color/system_accent1_600</item>
+        <item name="android:statusBarColor" tools:targetApi="l" tools:ignore="ObsoleteSdkInt">#99DCF0</item>
+        <item name="colorOnSurface">@color/white</item>
+    </style>
+</resources>

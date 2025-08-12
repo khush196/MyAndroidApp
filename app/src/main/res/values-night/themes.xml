@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.DeviceMapper" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary" tools:ignore="NewApi">@android:color/system_accent2_900</item>
+        <item name="colorPrimaryVariant" tools:ignore="NewApi">@android:color/system_accent1_800</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorSecondary" tools:ignore="NewApi">@android:color/system_neutral2_800</item>
+        <item name="colorSurface">#1D1C1C</item>
+        <item name="colorOnSurface">@color/white</item>
+    </style>
+</resources>

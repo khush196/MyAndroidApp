@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Drawer Colors - Dark Theme -->
+    <color name="drawer_background_dark">#121212</color>   <!-- Or your desired dark background, e.g., #303030 -->
+    <color name="drawer_item_text_color_dark">#FFFFFFFF</color>   <!-- White -->
+    <color name="drawer_item_icon_tint_dark">#B3FFFFFF</color>   <!-- 70% white for icons -->
+
+</resources>

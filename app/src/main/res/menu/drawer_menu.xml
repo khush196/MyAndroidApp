@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_settings"
+        android:title="Settings"/>
+    <item
+        android:id="@+id/nav_filter"
+        android:title="Filter"/>
+    <item
+        android:id="@+id/nav_export"
+        android:title="Export"/>
+    <item
+        android:id="@+id/nav_history"
+        android:title="History" />
+
+</menu>
